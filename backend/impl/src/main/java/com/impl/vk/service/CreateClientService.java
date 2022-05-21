@@ -16,6 +16,6 @@ public class CreateClientService {
     }
 
     public Common initNewClient(Id id) {
-        return new Common(id.getUUID(), "id", "data");
+        return new Common(randomGenerator.getRandomUID().toString(), id.toString(), "data");
     }
 }
