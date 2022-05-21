@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="impl" />
+        <module name="DB" />
+        <module name="api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api" target="11" />
+      <module name="backend" target="11" />
+      <module name="BsTestXuita" target="11" />
+      <module name="DB" target="11" />
+      <module name="demo" target="1.5" />
+      <module name="impl" target="11" />
+      <module name="jpa" target="11" />
+      <module name="OpenProject" target="1.5" />
+      <module name="test" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="OpenProject" options="" />
+      <module name="api" options="-parameters" />
+      <module name="backend" options="-parameters" />
+      <module name="impl" options="-parameters" />
+      <module name="jpa" options="" />
+      <module name="test" options="-parameters" />
+    </option>
+  </component>
+</project>
