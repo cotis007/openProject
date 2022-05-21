@@ -26,6 +26,7 @@
             <artifactId>api</artifactId>
             <version>0.0.1</version>
         </dependency>
+
     </dependencies>
 
     <profiles>
@@ -49,6 +50,15 @@
 
         <profile>
             <id>dev</id>
+            <dependencies>
+
+                <dependency>
+                    <groupId>org.postgresql</groupId>
+                    <artifactId>postgresql</artifactId>
+                    <version>42.3.5</version>
+                </dependency>
+
+            </dependencies>
 
         </profile>
 
