@@ -8,8 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="impl" />
-        <module name="DB" />
+        <module name="security" />
         <module name="api" />
+        <module name="DB" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +22,7 @@
       <module name="impl" target="11" />
       <module name="jpa" target="11" />
       <module name="OpenProject" target="1.5" />
+      <module name="security" target="11" />
       <module name="test" target="1.5" />
     </bytecodeTargetLevel>
   </component>
@@ -28,7 +30,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="OpenProject" options="" />
       <module name="api" options="-parameters" />
-      <module name="backend" options="-parameters" />
+      <module name="backend" options="" />
       <module name="impl" options="-parameters" />
       <module name="jpa" options="" />
       <module name="test" options="-parameters" />

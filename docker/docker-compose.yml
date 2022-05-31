@@ -1,11 +1,11 @@
 version: "3.9"
 services:
-  application:
-    image: open-project:latest
-    depends_on:
-      - postgres
-    ports:
-      - "8082:8082"
+#  application:
+#    image: open-project:latest
+#    depends_on:
+#      - postgres
+#    ports:
+#      - "8082:8082"
   postgres:
     image: postgres:latest
     container_name: postgres
